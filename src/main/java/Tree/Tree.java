@@ -1,9 +1,9 @@
 package Tree;
 
 public interface Tree {
-    void growUp(int percent);
+    void growUp(int value);
 
-    void droppingLeaves();
+    void droopingLeaves();
 
     void winterSeason(boolean isWinter);
 

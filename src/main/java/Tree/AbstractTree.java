@@ -66,7 +66,7 @@ public abstract class AbstractTree implements Tree {
     }
 
     @Override
-    public void droppingLeaves() {
+    public void droopingLeaves() {
         if (LeafType.LEAF.equals(leaves.getLeafType())) {
             leaves.setNumberOfLeaves(0);
             System.out.println("Leaves have fallen from the tree! Number of leaves is: " + leaves.getNumberOfLeaves());
@@ -81,7 +81,7 @@ public abstract class AbstractTree implements Tree {
 
         if (isWinter) {
             System.out.println("Winter season has begun!");
-            droppingLeaves();
+            droopingLeaves();
         } else {
             System.out.println("Winter season has not begun!");
         }
